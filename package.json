@@ -1,0 +1,21 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev:old": "webpack-dev-server --config webpack.config.old.js",
+    "dev:promise": "webpack-dev-server --config webpack.config.promise.js",
+    "dev": "webpack-dev-server"
+  },
+  "devDependencies": {
+    "chalk": "^2.4.2",
+    "figlet": "^1.2.3",
+    "glob": "^7.1.4",
+    "inquirer": "^6.5.0",
+    "inquirer-autocomplete-prompt": "^1.0.1",
+    "webpack": "4.39.1",
+    "webpack-cli": "^3.3.6",
+    "webpack-dev-server": "3.7.2"
+  }
+}
