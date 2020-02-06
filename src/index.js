@@ -1,10 +1,4 @@
-console.log('index')
+import './legacy'
+//import { window } from 'exports-loader?window!./legacy';
 
-import {getCount, addCount} from './modules/counter'
-import './child'
-
-console.log('index', getCount())
-addCount()
-addCount()
-addCount()
-console.log('index', getCount())
+console.log(window.a)
